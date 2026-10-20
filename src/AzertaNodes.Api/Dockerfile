@@ -11,7 +11,7 @@ WORKDIR /src
 COPY ["src/AzertaNodes.Api/AzertaNodes.Api.csproj", "src/AzertaNodes.Api/"]
 COPY ["src/AzertaNodes.Application/AzertaNodes.Application.csproj", "src/AzertaNodes.Application/"]
 COPY ["src/AzertaNodes.Core/AzertaNodes.Core.csproj", "src/AzertaNodes.Core/"]
-COPY ["src/AzertaNodes.Infrastructure/AzertaNodes.Infrastructure.csproj", "src/AzertaNodes.Infrastructure/"]
+COPY ["src/Infrastructure/AzertaNodes.Infrastructure.csproj", "src/Infrastructure/"]
 
 RUN dotnet restore "src/AzertaNodes.Api/AzertaNodes.Api.csproj"
 
