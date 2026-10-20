@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AzertaNodes.Api/AzertaNodes.Api.csproj" />
+    <Project Path="src/AzertaNodes.Application/AzertaNodes.Application.csproj" Id="4a699b20-ebd0-454f-887a-d93003f8651f" />
+    <Project Path="src/AzertaNodes.Core/AzertaNodes.Core.csproj" Id="2864761b-2669-4e38-b73b-79a0bdb7b9b7" />
+    <Project Path="src/Infrastructure/AzertaNodes.Infrastructure.csproj" Id="9997891c-6e77-41ba-b048-86c023656164" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
